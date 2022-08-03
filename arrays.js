@@ -10,3 +10,7 @@ console.log(areaCodes.indexOf(303));
 
 // The .slice method will create a new array based on the stop and start elements (as applicable) indicated by the index positions typed in as parameters. //
 console.log(fakeNews.slice(0,2));
+
+// Because computers do all of their calculations with binary code (0s and 1s), they begin counting from 0. Therefore the index positions in arrays follows suit - counting begins at one.//
+// This allows each index position in an array to be referenced with a numerical value based on the number of its index position, instead of having to rely on its actual value. //
+// which, as we've seen, is subject to change.//
